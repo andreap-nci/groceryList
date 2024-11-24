@@ -1,0 +1,39 @@
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Grocery list app</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+  <h1>Grocery list app</h1>
+
+
+    <div class="container">
+      <div>
+        <form>
+          <label for="myItem">Item:</label>
+          <input type="text" id="myItem"><br>
+          <input type="submit" value="Add" onclick="addToList(event)">
+          <input type="submit" value="Remove" onclick="removeFromList(event)">
+          <input type="submit" value="Clear List" onclick="clearArray()">
+        </form>
+      </div>
+    </div>
+
+
+  <h3>Your list:</h3>
+  <div class="container">
+    <ul id="fullList">
+    </ul>
+  </div>
+
+  <script src="scripts.js"></script>
+</body>
+
+</html>
+

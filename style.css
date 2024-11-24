@@ -1,0 +1,25 @@
+body{
+    background-color: black;
+    color: white;
+    font-size:150%;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    padding:30px;
+    text-align: center;
+}
+
+
+.container{
+    display:flex;
+    justify-content:center;
+    
+}
+
+li{
+    list-style-position: inside;
+ }
+ 
+ 
+#fullList{
+    text-align:left;
+    width:200px;
+}
